@@ -1,0 +1,61 @@
+150312 174031.498|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to /home/student/Documents/HOCE 2/bin/profiles/P83db535b-3ba9-43c7-b1e2-962a4e06cd00/logs directory.
+150312 174031.498|INFO|AWT-EventQueue-0|info|
+150312 174031.498|INFO|AWT-EventQueue-0|info|Version 9.2.4 20140920 (Saturday, September 20th 2014 00:52 UTC) Java ver 1.7.0_75 build 2837 Linux 3.13.0-37-generic (amd64) 
+150312 174031.498|INFO|AWT-EventQueue-0|info|Login: site1 (aka server0)
+150312 174031.498|INFO|AWT-EventQueue-0|startLog|Working directory is /home/student/Documents/HOCE 2/bin
+150312 174031.499|INFO|AWT-EventQueue-0|startLog|Process id is 3425@tl3-25
+150312 174031.499|DEBUG|AWT-EventQueue-0|login|Site Number is set as 1 (0 means unset)
+150312 174031.499|INFO|AWT-EventQueue-0|info|initializeServer STARTED this site as Site 1
+150312 174041.521|WARNING|AWT-EventQueue-0|logException|Exception
+|java.io.FileNotFoundException: Profile/config file missing profiles/P83db535b-3ba9-43c7-b1e2-962a4e06cd00/db.1//settings.dat
+|    at edu.csus.ecs.pc2.core.model.InternalContest.readConfiguration (InternalContest.java:2203)
+|    at edu.csus.ecs.pc2.core.model.InternalContest.readConfiguration (InternalContest.java:2218)
+|    at edu.csus.ecs.pc2.core.InternalController.readConfigFromDisk (InternalController.java:2904)
+|    at edu.csus.ecs.pc2.core.InternalController.initializeServer (InternalController.java:855)
+|    at edu.csus.ecs.pc2.core.InternalController.authenticateFirstServer (InternalController.java:995)
+|    at edu.csus.ecs.pc2.core.InternalController.login (InternalController.java:637)
+|    at edu.csus.ecs.pc2.ui.LoginFrame.attemptToLogin (LoginFrame.java:347)
+|    at edu.csus.ecs.pc2.ui.LoginFrame$5.actionPerformed (LoginFrame.java:315)
+|    at javax.swing.AbstractButton.fireActionPerformed (AbstractButton.java:2018)
+|    at javax.swing.AbstractButton$Handler.actionPerformed (AbstractButton.java:2341)
+|    at javax.swing.DefaultButtonModel.fireActionPerformed (DefaultButtonModel.java:402)
+|    at javax.swing.DefaultButtonModel.setPressed (DefaultButtonModel.java:259)
+|    at javax.swing.plaf.basic.BasicButtonListener.mouseReleased (BasicButtonListener.java:252)
+|    at java.awt.Component.processMouseEvent (Component.java:6516)
+|    at javax.swing.JComponent.processMouseEvent (JComponent.java:3312)
+|    at java.awt.Component.processEvent (Component.java:6281)
+|    at java.awt.Container.processEvent (Container.java:2229)
+|    at java.awt.Component.dispatchEventImpl (Component.java:4872)
+|    at java.awt.Container.dispatchEventImpl (Container.java:2287)
+|    at java.awt.Component.dispatchEvent (Component.java:4698)
+|    at java.awt.LightweightDispatcher.retargetMouseEvent (Container.java:4832)
+|    at java.awt.LightweightDispatcher.processMouseEvent (Container.java:4492)
+|    at java.awt.LightweightDispatcher.dispatchEvent (Container.java:4422)
+|    at java.awt.Container.dispatchEventImpl (Container.java:2273)
+|    at java.awt.Window.dispatchEventImpl (Window.java:2719)
+|    at java.awt.Component.dispatchEvent (Component.java:4698)
+|    at java.awt.EventQueue.dispatchEventImpl (EventQueue.java:740)
+|    at java.awt.EventQueue.access$300 (EventQueue.java:103)
+|    at java.awt.EventQueue$3.run (EventQueue.java:699)
+|    at java.awt.EventQueue$3.run (EventQueue.java:697)
+|    at java.security.AccessController.doPrivileged (AccessController.java:-2)
+|    at java.security.ProtectionDomain$1.doIntersectionPrivilege (ProtectionDomain.java:76)
+|    at java.security.ProtectionDomain$1.doIntersectionPrivilege (ProtectionDomain.java:87)
+|    at java.awt.EventQueue$4.run (EventQueue.java:713)
+|    at java.awt.EventQueue$4.run (EventQueue.java:711)
+|    at java.security.AccessController.doPrivileged (AccessController.java:-2)
+|    at java.security.ProtectionDomain$1.doIntersectionPrivilege (ProtectionDomain.java:76)
+|    at java.awt.EventQueue.dispatchEvent (EventQueue.java:710)
+|    at java.awt.EventDispatchThread.pumpOneEventForFilters (EventDispatchThread.java:242)
+|    at java.awt.EventDispatchThread.pumpEventsForFilter (EventDispatchThread.java:161)
+|    at java.awt.EventDispatchThread.pumpEventsForHierarchy (EventDispatchThread.java:150)
+|    at java.awt.EventDispatchThread.pumpEvents (EventDispatchThread.java:146)
+|    at java.awt.EventDispatchThread.pumpEvents (EventDispatchThread.java:138)
+|    at java.awt.EventDispatchThread.run (EventDispatchThread.java:91)
+150312 174041.527|INFO|AWT-EventQueue-0|initializeServer|initializing controller with default settings
+150312 174041.538|INFO|AWT-EventQueue-0|info|reject.ini not found, ok.  Loading default judgements
+150312 174041.540|INFO|AWT-EventQueue-0|info|initialized controller Site 1
+150312 174041.564|INFO|AWT-EventQueue-0|info|evals.log is opened at profiles/P83db535b-3ba9-43c7-b1e2-962a4e06cd00/logs
+150312 174041.565|INFO|AWT-EventQueue-0|accecptConnections|accecptConnections on port:50002
+150312 174041.579|INFO|AWT-EventQueue-0|info|Started Server Transport listening on 50002
+150312 174041.579|INFO|AWT-EventQueue-0|info|Primary Server has .

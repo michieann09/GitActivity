@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+  <title>Lights - A jQuery Tutorial | CSI</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="assets/images/up-csi-logo.png" />
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <style>
+    body {
+      padding: 100px;
+      text-align: center;
+    }
+    ul {
+      font-family: Helvetica, Arial, Tahoma, sans;
+      list-style: none;
+      margin-bottom: 50px;
+    }
+    ul li {
+      color: #fff;
+      display: inline-block;
+      margin-right: 20px;
+      padding: 20px;
+      text-align: center;
+      transition: all 0.3s linear;
+    }
+    .switches li {
+      background-color: #336699;
+      cursor: pointer;
+      border-radius: 300px;
+      width: 120px;
+    }
+    .switches li:hover {
+      background-color: #5484b7;
+    }
+    .switches li.on, .switches.on:hover {
+      background-color: #234B76;
+    }
+    .lights li {
+      background-color: #eee;
+      border-radius: 300px;
+      overflow: hidden;
+    }
+    .lights li span {
+      display: table-cell;
+      height: 120px;
+      font-size: 30px;
+      vertical-align: middle;
+      width: 120px;
+    }
+    .lights li.on {
+      background-color: #339900;
+    }
+  </style>
+</head>
+
+<body>
+
+  <ul class="switches">
+    <li class="on">All Lights Off</li>
+    <li>All Lights On</li>
+    <li>Lights 1 & 3 On</li>
+    <li>Lights 2 & 4 On</li>
+  </ul>
+
+  <ul class="lights">
+    <li><span>1</span></li>
+    <li><span>2</span></li>
+    <li><span>3</span></li>
+    <li><span>4</span></li>
+  </ul>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script>
+    if (typeof(jQuery) == 'undefined')
+    {
+      document.write(unescape('%3Cscript src="assets/js/jquery-2.1.1.min.js"%3E%3C/script%3E'));
+    }
+  </script>
+  <script type="text/javascript">
+    $(function(){
+      $('.switches li').click(function(){
+      });
+    });
+  </script>
+
+</body>
+</html>
