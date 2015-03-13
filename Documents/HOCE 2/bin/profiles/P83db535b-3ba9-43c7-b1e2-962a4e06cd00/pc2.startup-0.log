@@ -1,0 +1,5 @@
+150312 174021.662|CONFIG|main|setFileHandlers|Now logging to /home/student/Documents/HOCE 2/bin/profiles/P83db535b-3ba9-43c7-b1e2-962a4e06cd00 directory.
+150312 174021.662|INFO|main|info|
+150312 174021.663|INFO|main|info|Version 9.2.4 20140920 (Saturday, September 20th 2014 00:52 UTC) Java ver 1.7.0_75 build 2837 Linux 3.13.0-37-generic (amd64) 
+150312 174021.663|INFO|main|startLog|Working directory is /home/student/Documents/HOCE 2/bin
+150312 174021.663|INFO|main|startLog|Process id is 3425@tl3-25

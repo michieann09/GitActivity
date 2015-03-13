@@ -1,0 +1,8 @@
+150312 174041.580|CONFIG|AWT-EventQueue-0|setFileHandlers|Now logging to /home/student/Documents/HOCE 2/bin/profiles/P83db535b-3ba9-43c7-b1e2-962a4e06cd00/logs directory.
+150312 174041.581|INFO|AWT-EventQueue-0|info|
+150312 174041.581|INFO|AWT-EventQueue-0|info|Version 9.2.4 20140920 (Saturday, September 20th 2014 00:52 UTC) Java ver 1.7.0_75 build 2837 Linux 3.13.0-37-generic (amd64) 
+150312 174041.581|INFO|AWT-EventQueue-0|info|Login: server0 (aka server0)
+150312 174041.581|INFO|AWT-EventQueue-0|startLog|Working directory is /home/student/Documents/HOCE 2/bin
+150312 174041.581|INFO|AWT-EventQueue-0|startLog|Process id is 3425@tl3-25
+150312 174041.582|INFO|AWT-EventQueue-0|info|Attempting to load UI class edu.csus.ecs.pc2.ui.server.ServerView
+150312 174041.595|INFO|AWT-EventQueue-0|info|Loaded UI class edu.csus.ecs.pc2.ui.server.ServerView
